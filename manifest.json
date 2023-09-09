@@ -1,0 +1,18 @@
+{
+
+	"manifest_version": 2,
+	"name": "BossVertoletik",
+	"version": "1.0",
+
+	"description": "Adds Muxomop to all YouTube thumbnails.",
+
+
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/*"],
+			"js": ["script.js"]
+		}
+	]
+}
+
